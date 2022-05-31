@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+  #about, #menu, #where {
+      background-image: url("assets/brick-background.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+  }
+  
+  .bg-black {
+      background-color: black;
+      color: white;
+      padding: 8px;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("assets/front.jpg");
+    min-height: 75%;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  a {
+      color: white;
+  }
+  
+  a:hover {
+      color: grey;
+  }
